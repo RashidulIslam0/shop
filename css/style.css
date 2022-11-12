@@ -8,8 +8,7 @@
 
 
 section{
-    margin-top: 100px;
-    /* margin-bottom: 50px; */
+    margin-bottom: 100px;
 
 }
 :active,
@@ -172,7 +171,9 @@ body{
 
 
 /* menu  */
-
+.navbar{
+    background: var(--primary-color);
+}
 
 .icon i{
     display: flex;
@@ -519,3 +520,107 @@ hr{
 /* .card.img img{
     width: 20px;
 } */
+
+
+
+
+
+/* contact page  */
+.contact{
+    background: #f7f8fb;
+    margin-top: 20px;
+    padding: 50px 0 50px;
+}
+
+
+.con-neme h3{
+    font-size: 26px;
+    font-weight: 700;
+}
+.con-link ul li{
+    display: contents;
+
+}
+.con-link ul li i{
+    color: gray;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.con-link ul li a{
+    color: gray;
+}
+
+
+
+.address-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.address-icon{
+    padding: 20px;
+    color: var(--red-color);
+
+}
+
+
+
+
+.address-icon i:hover{
+    color: var(--white-color);
+    background: var(--red-color)
+}
+.address-icon i{
+    font-size: 30px;
+    padding: 20px 20px;
+    border: 1px solid var(--red-color);
+
+    border-radius: 222px;
+
+}
+
+
+.address-text h4{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #292B2C;
+}
+
+.address-text p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+
+.countact-us-from .btn{
+    padding: 10px 25px;
+    width: 150px;
+    color: var(--white-color);
+    background: var(--red-color);
+}
+
+
+.countact-us-from .btn:hover{
+    background: var(--white-color);
+    color: var(--red-color);
+    border: 1px solid var(--red-color);
+}
+
+
+.countact-us-head h2{
+    font-size: 28px;
+}
+
+.countact-us-dis p{
+    font-size: 18px;
+    color: gray;
+}
+/* .cou-form{
+    padding: 10px;
+} */
+
+.map-area iframe{
+    border-radius: 5px;
+}
