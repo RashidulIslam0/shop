@@ -78,6 +78,9 @@ body{
 
   /* Custom Css Design stert  */
 
+  a{
+    color: var(--black-color);
+  }
 
   h1{
     font-size: 3rem;
@@ -116,6 +119,7 @@ body{
   ul,
   ol{
     list-style: none;
+
   }
 
 
@@ -624,3 +628,285 @@ hr{
 .map-area iframe{
     border-radius: 5px;
 }
+
+
+.dis-head{
+    border-bottom: 1px solid gray;
+
+}
+
+.dis-head ul li{
+    display: contents;
+
+}
+.dis-head ul li a{
+    padding-bottom: 100px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+/* .dis-head ul li a:active{
+    color: var(--red-color);
+} */
+
+.dis p{
+    font-size: 18px;
+    color: gray;
+}
+
+.dis-img img{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+.dis-img-icons ul li{
+    display: contents;
+    color: #cc7f00;
+    text-align: end;
+    font-size: 16px;
+}
+.dis-img-icons ul li i{
+    font-size: 14px;
+}
+
+
+.dis-card-text{
+    font-size: 20px;
+    color: var(--red-color);
+    padding-right: 70px;
+    
+}
+.dis-card-text span{
+    color: gray;
+    text-decoration:line-through ;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.dis-img-dis p{
+    font-size: 18px;
+    color: gray;
+}
+
+.Policy ul li i{
+    font-size: 14px;
+    padding: 4px 4px;
+    color: var(--red-color);
+    /* border: 1px solid var(--red-color); */
+    border-radius: 333px;
+    margin-right: 10px;
+}
+.Policy ul li p{
+    font-size: 16px;
+    color: gray;
+}
+
+
+.size h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+    display: flex;
+    float: left;
+    padding-right: 20px;
+}
+
+.size-list ul li{
+    display: contents;
+    /* padding: 10px 10px;
+    border: 1px solid gray; */
+}
+
+.cards{
+    border-top: 1px solid gray;
+
+    padding-bottom: 1px solid gray;
+}
+
+
+.cards-left ul li{
+    display: contents;
+
+}
+
+
+.cards-left ul li i{
+    padding: 15px 15px ;
+    /* border: 1px solid gray; */
+    border-radius: 55px;
+    background:#eeeeee;
+}
+
+.cards-btn .btn{
+    padding: 10px 40px;
+    color: var(--white-color);
+    background: var(--red-color);
+}
+
+
+.cards-btn .btn:hover{
+   background: var(--primary-color);
+   color: var(--red-color);
+   border: 1px solid var(--red-color);
+}
+
+.catg{
+    border-top: 1px solid gray;
+    padding-top: 40px;
+
+}
+.catg h6{
+    font-size: 18px;
+    color: gray;
+    
+
+}
+.catg h6 span{
+    font-size: 20px;
+    color:var(--black-color);
+}
+
+.catg-icons p{
+    display: flex;
+    float: left;
+    padding-right: 20px;
+}
+.catg-icons i{
+    font-size: 18px;
+    padding-right: 20px;
+    color: gray;
+}
+.catg-icons i:hover{
+    color: var(--red-color);
+}
+
+.gan{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+.accordion-header:hover{
+    color: var(--red-color);
+}
+
+/* about */
+
+.about-text{
+    width: 90%;
+}
+.about-text h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-text p{
+    padding-top: 10px;
+    font-size: 16px;
+    color: gray;
+}
+
+
+
+/* Choose */
+/* .Choose{
+    background: #f4f9fc;
+} */
+
+.Choose{
+    background:#f4f9fc ;
+}
+
+.choose-head h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+} 
+
+.choose-head p{
+    /* width: 500px; */
+    font-size: 20px;
+    color: gray;
+}
+
+
+
+.Choose-dis{
+    /* background: greenyellow; */
+}
+
+.choose-item{
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: var(--primary-color);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.06);
+}
+.choose-icon i{
+    font-size: 20px;
+    padding: 15px 15px;
+    color: var(--primary-color);
+    background: var(--red-color);
+    border-radius: 100px;
+}
+
+
+.choose-item h3{
+    padding: 10px;
+    font-size: 24px;
+    color: var(--secondry-color);
+}
+.choose-item p{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: gray;
+}
+
+.team-name h4{
+    font-size: 20px;
+}
+.team-name p{
+    font-size: 18px;
+    color: gray;
+}
+
+
+/* error */
+
+.error{
+    width: 40%;
+}
+
+.error h2{
+    font-size: 150px;
+    padding-bottom: 30px;
+}
+.error h3{
+    padding-top: 20px;
+    font-size: 26px;
+    color: var(--black-color)
+}
+.error p{
+    font-size: 18px;
+    color: gray;
+    padding-top: 10px;
+}
+
+.error button{
+    padding: 10px 30px;
+    background: var(--red-color);
+    /* color: white !important; */
+
+}
+
+.error button:hover{
+    background: var(--white-color);
+    color: var(--red-color);
+    border: 1px solid var(--red-color);
+
+}
+
+
+
+
+
